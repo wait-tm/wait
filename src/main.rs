@@ -3,7 +3,8 @@ extern crate core;
 mod app;
 mod renderer;
 mod game;
-pub mod input;
+mod input;
+mod registry;
 
 use crate::app::App;
 use winit::event_loop::{ControlFlow, EventLoop};
